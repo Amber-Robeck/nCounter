@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+/* Begin navigation styling */
+#nav {
+  height: 3rem;
+  text-align: center;
+  background-color: #4f4e4e;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: sticky;
+}
+
+
+#nav ul {
+  display: flex;
+  margin-inline-end: auto;
+  align-items: center;
+}
+
+#nav li {
+  list-style: none;
+  margin: .5rem;
+}
+
+#nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  color: rgb(193, 193, 193);
+  text-decoration: underline;
+}
+
+/* End navigation styling */
