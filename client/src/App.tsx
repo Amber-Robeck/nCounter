@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navigation, About, Footer } from './components';
+import { Navigation, About, Footer } from './components/index';
 
 function App() {
   return (
