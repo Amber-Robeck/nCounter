@@ -19,3 +19,9 @@ test('renders app with about section', () => {
   const aboutElement = document.querySelector('#about');
   expect(aboutElement).toBeInTheDocument();
 });
+
+test('renders app with footer', () => {
+  render(<App />);
+  const footerElement = document.querySelector('#footer');
+  expect(footerElement).toBeInTheDocument();
+});

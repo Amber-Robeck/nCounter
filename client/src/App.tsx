@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navigation from './components/Navigation';
-import About from './components/About';
+import { Navigation, About, Footer } from './components';
 
 function App() {
   return (
     <div id='app' className="App">
       <Navigation />
       <About />
+      <Footer />
     </div>
   );
 }
