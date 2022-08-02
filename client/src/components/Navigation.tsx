@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../assets/css/App.css';
 
 const Navigation = () => {
     const liElements = [
