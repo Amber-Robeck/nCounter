@@ -39,3 +39,31 @@
 }
 
 /* End navigation styling */
+
+/* Beginning of footer styling */
+#footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #4f4e4e;
+  height: 2.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer .link {
+  padding: .5rem;
+}
+
+#footer .link .footer-icon {
+  width: 3rem;
+  color: #fff;
+}
+
+#footer .link .footer-icon:hover {
+  color: rgb(193, 193, 193);
+  transform: scaleY(1.2);
+}
+
+/* End footer styling */
