@@ -49,6 +49,7 @@
   height: 30px;
   left: 2rem;
   top: 20px;
+  display: none;
 }
 
 /* Color/shape of burger icon bars */
@@ -154,3 +155,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 /* End footer styling */
+
+/* Media query for 600 */
+@media screen and (max-width: 600px) {
+  #nav a {
+    display: none;
+  }
+
+  .bm-burger-button {
+    display: block;
+  }
+}
