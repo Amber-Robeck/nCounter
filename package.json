@@ -2,10 +2,12 @@
   "name": "ncounter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
+  "type": "commonjs",
   "scripts": {
     "test": "cd ./client && npm run test",
-    "start": "cd ./client && npm run start"
+    "start": "cd ./client && npm run start",
+    "build": "rm -rf build/ && tsc"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/Amber-Robeck/nCounter/issues"
   },
-  "homepage": "https://github.com/Amber-Robeck/nCounter#readme"
+  "homepage": "https://github.com/Amber-Robeck/nCounter#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13"
+  }
 }
